@@ -18,7 +18,7 @@ void loop()
 
     for (int i = 0; i < 16; i++)
     {
-        Serial.print("Pin ");
+        Serial.print("PIN ");
         Serial.println(i);
         mymux.setChannel(i);
         digitalWrite(SIGPIN, HIGH);
