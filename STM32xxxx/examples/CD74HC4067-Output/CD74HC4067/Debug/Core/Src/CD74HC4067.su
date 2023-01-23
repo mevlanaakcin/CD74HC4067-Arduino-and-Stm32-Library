@@ -1,0 +1,4 @@
+../Core/Src/CD74HC4067.cpp:16:1:CD74HC4067::CD74HC4067(int, int, int, int)	32	static
+../Core/Src/CD74HC4067.cpp:30:6:void CD74HC4067::setpincd(int, int, int, int)	24	static
+../Core/Src/CD74HC4067.cpp:42:6:void CD74HC4067::setChannel(GPIO_TypeDef*, int)	32	static
+../Core/Src/CD74HC4067.cpp:53:5:int CD74HC4067::readChannel(int)	16	static
