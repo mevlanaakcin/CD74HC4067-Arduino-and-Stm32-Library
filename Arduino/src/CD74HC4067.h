@@ -26,7 +26,7 @@ private:
     void setpincd(int, int, int, int);
 
 public:
-    CD74HC4067::CD74HC4067(int, int, int, int);
+    CD74HC4067(int, int, int, int);
     int setChannel(int);
     int readChannel(int);
 };
