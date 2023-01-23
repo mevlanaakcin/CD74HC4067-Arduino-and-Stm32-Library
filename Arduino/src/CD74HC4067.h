@@ -28,23 +28,7 @@ private:
 public:
     CD74HC4067::CD74HC4067(int, int, int, int);
     int setChannel(int);
-};
-
-class AnalogRead_CD : public CD74HC4067
-{
-private:
-    
-
-public:
-    AnalogRead_CD(int s0, int s1, int s2, int s3) : CD74HC4067(s0, s1, s2, s3) {}
     int readChannel(int);
-};
-
-class Output_CD : public CD74HC4067
-{
-private:
-public:
-    Output_CD(int s0, int s1, int s2, int s3) : CD74HC4067(s0, s1, s2, s3) {}
 };
 
 #endif

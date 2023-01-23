@@ -6,14 +6,13 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-Analog	KEYWORD1	Analog
+CD74HC4067	KEYWORD1	CD74HC4067
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-setpincd	KEYWORD2
 readChannel	KEYWORD2
-channel	KEYWORD2
+setChannel	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

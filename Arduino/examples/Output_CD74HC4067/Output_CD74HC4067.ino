@@ -1,10 +1,10 @@
 #include "CD74HC4067.h"
 /*
-Output_CD xxx(s0,s1,s2,s3)
+CD74HC4067 xxx(s0,s1,s2,s3)
 
 SIGPIN is output pin.
 */
-Output_CD mymux(8, 9, 10, 11);
+CD74HC4067 mymux(8, 9, 10, 11);
 int SIGPIN = 7;
 
 void setup()

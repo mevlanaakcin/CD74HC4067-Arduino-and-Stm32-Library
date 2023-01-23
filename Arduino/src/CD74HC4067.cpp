@@ -42,7 +42,7 @@ int CD74HC4067::setChannel(int ch)
 
 ///////////////////////////////////////
 // readChannel
-int AnalogRead_CD::readChannel(int pin)
+int CD74HC4067::readChannel(int pin)
 {
     return analogRead(pin);
 }
